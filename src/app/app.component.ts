@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { UserListComponent } from './components/user-list/user-list.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [UserListComponent, HttpClientModule], // Asegúrate de incluir HttpClientModule aquí
+  template: `<app-user-list></app-user-list>`,
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'consumo-api-GVAYG';
-}
+export class AppComponent {}
+
