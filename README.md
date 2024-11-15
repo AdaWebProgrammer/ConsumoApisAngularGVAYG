@@ -65,7 +65,8 @@ export class UserListComponent implements OnInit {
   get totalPages(): number {
     return Math.ceil(this.users.length / this.itemsPerPage);
   }
-}```
+}
+```
 
 hola mundoddd
 
