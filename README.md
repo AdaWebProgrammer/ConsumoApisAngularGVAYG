@@ -117,7 +117,7 @@ Este archivo trabaja junto con **`user-list.component.ts`**, que maneja la lógi
 
 .pagination button:hover {
   background-color: #0056b3;
-}```
+}\``` 
 
 
 
