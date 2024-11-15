@@ -22,7 +22,7 @@ La carpeta `components/user-list` contiene los archivos principales del componen
 
 Este archivo define el componente de la lista de usuarios y maneja la lógica de paginación.
 
-```typescript
+```
 import { Component, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
@@ -65,7 +65,7 @@ export class UserListComponent implements OnInit {
   get totalPages(): number {
     return Math.ceil(this.users.length / this.itemsPerPage);
   }
-}\`\`\`
+}```
 
 
 ------------
@@ -94,7 +94,7 @@ Este archivo define la estructura HTML de la tabla de usuarios y los controles d
 - **Paginación**: Muestra un conjunto de botones para navegar entre páginas, permitiendo al usuario seleccionar diferentes páginas de la lista de usuarios.
 
 Este archivo trabaja junto con **`user-list.component.ts`**, que maneja la lógica de paginación y obtiene los datos del servicio.
-```css
+```
 /* Color de cabecera */
 .styled-table thead tr {
   background-color: #007bff;
@@ -118,7 +118,7 @@ Este archivo trabaja junto con **`user-list.component.ts`**, que maneja la lógi
 
 .pagination button:hover {
   background-color: #0056b3;
-}\``` 
+}```
 
 
 
