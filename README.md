@@ -64,7 +64,7 @@ export class UserListComponent implements OnInit {
 
   get totalPages(): number {
     return Math.ceil(this.users.length / this.itemsPerPage);
-  }```
+  }
 }```
 
 
@@ -96,7 +96,8 @@ Este archivo define la estructura HTML de la tabla de usuarios y los controles d
 Este archivo trabaja junto con **`user-list.component.ts`**, que maneja la lógica de paginación y obtiene los datos del servicio.
 
 
-```/* Color de cabecera */
+```
+/* Color de cabecera */
 .styled-table thead tr {
   background-color: #007bff;
   color: #ffffff;
