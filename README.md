@@ -1,4 +1,4 @@
-# Consumo de Apis de terceros
+# Consumo de Apis en Angular de terceros
 
 Este proyecto es una aplicación de Angular que consume una API de usuarios, mostrando los datos en una tabla con paginación. Utiliza componentes y servicios para separar la lógica de negocio de la lógica de presentación.
 
@@ -162,7 +162,8 @@ Este archivo trabaja junto con **`user-list.component.ts`**, que maneja la lógi
    Se podrían integrar APIs para obtener datos de productos, órdenes, informes de clima, noticias, entre otros, dependiendo de la finalidad del proyecto.
 
 ------------
-
+### Tabla
+![image](https://github.com/user-attachments/assets/56c0778f-08c9-4241-976f-8a04de0cda2e)
 
 
 #####Guzmán Vite Adamaris Yareth Guadalupe
